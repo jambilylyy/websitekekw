@@ -1,0 +1,104 @@
+<!-- 
+ * Made by John Mark B. Escorel for Intro To Computing
+ * All rights reserved © 2025 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- For responsiveness -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+
+    <!-- Link to stylesheets and icons -->
+    <link rel="stylesheet" href="website.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <!-- Logo -->
+        <a href="#home" class="logo">
+            Strawberry <span>Jam</span>
+        </a>
+        <!-- Dropdown menu for mobile devices -->
+        <i class="bx bx-menu" id="icon-menu"></i>
+        <!-- Navigation -->
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about-me">About</a>
+            <a href="#hobbies">Hobbies</a>
+        </nav>
+    </header>
+    <!-- Homepage -->
+    <section class="home" id="home">
+        <div class="home-txt">
+            <h1>Hi, I am <span>John Mark Escorel</span></h1>
+            <h3>Y'all can call me <span>Jam.</span></h3>
+        </div>
+        <div class="home-img">
+            <img src="img.jpg" alt="">
+        </div>
+    </section>
+    <!-- About Me -->
+    <section class="about-me" id="about-me">
+        <h2 class="heading">About <span>Me</span></h2>
+        <div class="about-container">
+            <div class="about-box">
+                <div class="about-info">
+                    <i class='bx bx-id-card'></i>
+                    <h4>Age</h4>
+                    <p>I am 18 years old.</p>
+                </div>
+            </div>
+            <div class="about-box">
+                <div class="about-info">
+                    <i class='bx bxs-party' ></i>
+                    <h4>Birthday</h4>
+                    <p>I was born on February 15, 2006.</p>
+                </div>
+            </div>
+            <div class="about-box">
+                <div class="about-info">
+                    <i class='bx bx-current-location' ></i>
+                    <h4>Address</h4>
+                    <p>I currently live at Camarin, Caloocan City.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hobbies -->
+    <section class="hobbies" id="hobbies">
+        <h2 class="heading">Hobbies</h2>
+        <div class="hobbies-container">
+            <div class="hobbies-box">
+                <img src="workout.webp" alt="">
+                <h3>Working Out</h3>
+                <p>I'm a pretty active person, so working out definitely ranks high on my list. It's not just about looking good; it also improves my physical and mental health.</p>
+            </div>
+            <div class="hobbies-box">
+                <img src="musics.webp" alt="">
+                <h3>Listening to music</h3>
+                <p>I love listening to music because it's like a soundtrack to my life. It helps me relax, get pumped up, or just escape into my own little world.</p>
+            </div>
+            <div class="hobbies-box">
+                <img src="game.png" alt="">
+                <h3>Playing video games</h3>
+                <p>And lastly, I love to play video games. They're a great way to unwind and have some fun. Some games are really challenging and make me think, while others are just pure escapism.</p>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <h3>Contact Me</h3>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/averagebuild">
+                <i class='bx bxl-facebook-circle' ></i>
+            </a>
+        </div>
+        <p class="copyright">
+            © John Mark Escorel | All Rights Reserved 2025
+        </p>
+    </footer>
+    <script src="website.js"></script>
+</body>
+</html>
